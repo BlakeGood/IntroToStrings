@@ -4,8 +4,19 @@ public class challenges
 
 		public static void main(String[] args)
 			{
-				// TODO Auto-generated method stub
+				challengeOne();
+				challengeTwo();
 
 			}
+		
+		public static void challengeOne()
+		{
+			Scanner
+		}
 
+		public static void challengeTwo()
+		{
+			
+		}
+		
 	}
