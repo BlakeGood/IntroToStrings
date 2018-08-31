@@ -6,6 +6,7 @@ public class challenges
 			{
 				//challengeOne();
 				//challengeTwo();
+				challengeThree();
 
 			}
 		
@@ -32,4 +33,34 @@ public class challenges
 			
 		}
 		
+		public static void challengeThree()
+			{
+
+				Scanner userSentence = new Scanner(System.in);
+				System.out.println("Please type a sentence.");
+				String sentence = userSentence.nextLine();
+
+				int counter = 0;
+				for (int i = 0; i < sentence.length(); i++)
+					{
+						sentence.substring(i, i + 1);
+						switch (sentence.substring(i, i + 1))
+							{
+							case "a":
+							case "A":
+							case "e":
+							case "E":
+							case "i":
+							case "I":
+							case "o":
+							case "O":
+							case "u":
+							case "U":
+								{
+									counter++;
+								}
+							}
+					}
+				System.out.println("This sentence has " + counter + " vowels.");
+			}
 	}
