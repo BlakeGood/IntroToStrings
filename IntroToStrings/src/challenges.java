@@ -61,6 +61,14 @@ public class challenges
 								}
 							}
 					}
-				System.out.println("This sentence has " + counter + " vowels.");
+				if (counter == 1)
+					{
+						System.out.println("This sentence has " + counter + " vowel.");
+					} else
+					{
+						System.out.println("This sentence has " + counter + " vowels.");
+					}
+
 			}
+
 	}
